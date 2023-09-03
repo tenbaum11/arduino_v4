@@ -4,7 +4,7 @@ dashboardPage(
   dashboardSidebar(
     textInput("firebase_node", "Firebase Node", "test3"),
     textInput("firebase_key", "Firebase Key", "float"),
-    textInput("node", "node", "TestEC2"),
+    textInput("node", "node", "TestEC3"),
     textInput("firebase_test", "Firebase Test", "allDataSensor01"),
     sliderInput("rateThreshold", "Warn when rate exceeds",
                 min = 0, max = 50, value = 3, step = 0.1
